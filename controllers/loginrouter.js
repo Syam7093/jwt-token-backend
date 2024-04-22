@@ -3,6 +3,7 @@ const router=express.Router()
 const authmodelschema=require("../model/schema")
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
+const some=some;
 
 
 const jwt_secreat="onpassive"
